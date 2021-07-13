@@ -1,1 +1,59 @@
-/* stylesheet start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+   /* stylesheet start */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.rectangle{
+    background-color: #2D25A0;
+    display: flex;
+    width: 1536px;
+    height: 600px;
+    
+    
+}
+.livestream h2,p{
+    color: white;
+
+}
+.livestream h2{
+    font-size: 50px;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+.live-link a, p{
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: tomato;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+    
+}
+.live:hover{
+    background-color: teal;
+    
+}
+.kick-ball img{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 340px;
+    
+
+}
+.kick-ball:hover img{
+    transform: translate(10px, 10px);
+    transition: transform 1s ease .3s;
+}

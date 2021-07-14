@@ -138,7 +138,7 @@ body{
    font-size: 15px;
    width: 100px;
    height: 5px;
-  
+  margin: 30px;
    padding: 20px;
    padding-bottom: 30px;
    margin-left: 30px;
@@ -147,6 +147,24 @@ body{
 }
 .time:hover h6{
     background-color: teal;
+}
+
+.clubs h1{
+    margin-left: 700px;
+    font-size: 30px;
+    margin: 30px;
+    margin-left: 670px;
+}
+.club-logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 160px;
+    padding: 10px;
+    
+   
+}
+hr{
+    color: 5px solid gray;
 }
 /* extra section start */
 
@@ -161,7 +179,7 @@ body{
     width: 400px;
     height: 200px;
     left: 475px;
-    top: 3200px;
+    top: 3450px;
   
 }
 .footer img{
@@ -213,8 +231,15 @@ margin-left: 10px;
     .time{
         margin-left: 400px;
     }
+    .clubs h1{
+        margin: 30px;
+        margin-left: 480px;
+    }
+    .club-logo img{
+        margin-left: 450px;
+    }
     .footer{
-        margin-top: 4200px;
+        margin-top: 4700px;
         margin-left: -200px;
     }
 }

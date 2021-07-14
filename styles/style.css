@@ -13,36 +13,37 @@ body{
 .rectangle{
     background-color: #2D25A0;
     display: flex;
-    width: 1536px;
+    width: 1550px;
     height: 600px;
-    
+
     
 }
-.livestream h2,p{
+.livestream h2{
     color: white;
 
 }
 .livestream h2{
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 180px;
-    margin-left: 150px;
+    margin-left: 180px;
 }
-.live-link a, p{
-    font-size: 15px;
+.live-link a{ 
     text-decoration: none;
-    margin-top: 20px;
-    margin-left: 150px;
-    background-color: tomato;
-    width: 120px;
-    height: 20px;
+}
+.live{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 170px;
+    width: 144px;
+    height: 35px;
+    padding-top: 17px;
     text-align: center;
-    border-radius: 20px;
-    
-    
-    
 }
 .live:hover{
     background-color: teal;
+    
     
 }
 .kick-ball img{

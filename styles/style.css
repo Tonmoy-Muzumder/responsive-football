@@ -95,6 +95,8 @@ body{
 
 /* section 2 end */
 
+
+/* extra section start */
 .extra-container{
     margin-top: 50px;
     background-color: green;
@@ -146,7 +148,7 @@ body{
 .time:hover h6{
     background-color: teal;
 }
-
+/* extra section start */
 
 /* footer start */
 .footer{
@@ -177,3 +179,42 @@ body{
 
 
 /* footer end */
+
+/* media query for mobile and tab devices */
+
+@media only screen and (max-width:688px){
+    
+    .rectangle{
+        width: 255%;
+        
+       
+    }
+    .kick-ball img{
+        width: 400px;
+        height: 400px;
+        margin-top: 150px;
+margin-left: 10px;
+    }
+    .players-container{
+        width: 100%;
+       
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .extra-container{
+        width: 255%;
+    }
+    .player{
+        margin-left: 150px;
+    }
+    .match{
+        margin-left: 250px;
+    }
+    .time{
+        margin-left: 400px;
+    }
+    .footer{
+        margin-top: 4200px;
+        margin-left: -200px;
+    }
+}

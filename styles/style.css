@@ -13,7 +13,7 @@ body{
 .rectangle{
     background-color: #2D25A0;
     display: flex;
-    width: 1550px;
+    width: 1517px;
     height: 600px;
 
     
@@ -38,7 +38,7 @@ body{
     margin-left: 170px;
     width: 144px;
     height: 35px;
-    padding-top: 17px;
+    padding-top: 10px;
     text-align: center;
 }
 .live:hover{
@@ -50,11 +50,41 @@ body{
     width: 500px;
     height: 400px;
     margin-top: 100px;
-    margin-left: 340px;
+    margin-left: 300px;
     
 
 }
 .kick-ball:hover img{
     transform: translate(10px, 10px);
     transition: transform 1s ease .3s;
+}
+
+/* section2 start */
+
+.player img{
+    padding-bottom: 30px;
+    width: 300px;
+    height: 300px;
+}
+.player{
+    width: 300px;
+    height: 426px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0.15px  gray;
+
+
+
+}
+.player h1{
+    margin-bottom: 20px;
+}
+
+.players-container{
+    
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-right: 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
